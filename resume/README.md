@@ -8,7 +8,11 @@
 
 
 
+- https://goldfishblog.tw/interview-three-secrete-when-you-use-104-to-find-a-job/
 
+## skill
+- https://github.com/itwanger/toBeBetterJavaer
+- https://github.com/toutiaoio/awesome-architecture
 
 
 

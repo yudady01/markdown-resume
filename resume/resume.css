@@ -4,6 +4,7 @@
     padding-bottom: 20px !important;
 }
 
+
 content {
     margin-top: 0px !important;
     padding-top: 0px !important;
@@ -14,18 +15,30 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     border-bottom: 1px solid #eee !important;
     margin-bottom: 3px !important;
     padding-bottom: 3px !important;
 }
 
 h2 img {
-    width: 16px !important;
+    width: 24px !important;
 }
 
 h2 {
-    font-size: 17px !important;
+    font-size: 24px !important;
+}
+
+h3 img {
+    width: 18px !important;
+}
+
+h3 {
+    font-size: 18px !important;
 }
 
 p {

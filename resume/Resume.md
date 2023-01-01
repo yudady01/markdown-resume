@@ -41,7 +41,7 @@
   - Kafka，訊息不丟和重復，消費以及消息投遞一致性問題，有實際的項目經驗。
 - 熟悉大型網站高並發設計方案：對nginx、cdn、dns、https等都有深入的理解。
 - 前端技術：Angular、Vue、webpack、JQuery、Bootstrap，有實際的項目經驗。
-- GitOps：Jenkins、Maven、Gradle、ELK、GCP、Terraform、Prometheus Grafana，有實際的項目經驗。
+- GitOps：Jenkins、Maven、Gradle、ELK、GCP、Terraform、Prometheus、Grafana，有實際的項目經驗。
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 項目經歷
 
@@ -53,8 +53,8 @@
 
 * **項目架構**：
   - 技術：
-    - 在GCP平台上用Terraform構建k8s系統，使用jenkins構建image部屬應用服務
-    - Redis，Mysql，Kafka，ElasticSearch，Kibana，core-ng(類Spring框架,https://github.com/neowu/core-ng-project)
+    - 在GCP平台上用Terraform構建k8s系統，使用Jenkins構建image部屬應用服務
+    - Redis、Mysql、Kafka、ElasticSearch、Kibana、core-ng(類Spring框架,https://github.com/neowu/core-ng-project)
   - 模塊：vander（廠商資訊，白名單，api回調網址），充值提現（廠商提交過來的充值提現資訊），審核員操作功能
   - 項目描述：
     - 以API模式接入vander提交的資料，進行集團內部支付匹配
@@ -70,9 +70,10 @@
 
 * **項目架構**：
   - 技術：
-    - SpringBoot、Spring data jpa、core-ng(類Spring框架)、Gradle、Flyway、weblogic
-    - Redis，Oracle，Kafka，
-    - Angular、webpack
+    - SpringBoot、Spring data jpa、core-ng(類Spring框架)
+    - Weblogic、Jersey JAX-RS、JBPM、quartz scheduler、Hibernate、Querydsl、JasperReport、PLSQL
+    - Oracle、Redis、Kafka、Prometheus、Grafana
+    - Angular、webpack、React、
   - 模塊：帳號（會員、代理）、註冊連接、推廣連接、活動（每日登入送、充值送、紅包）、返點、三方遊戲、支付、里程碑、獎池、訊息推送、郵件、簡訊、訂單、任務排程、報表、公告、彩票
   - 項目描述：
     - 項目採用前後端分離，前台與後台
@@ -83,10 +84,7 @@
     - 1
     - 1
     - 1
-    - 1
-    - 1
-    - 1
-    - 1
+
 
 ### 聚力國際：體育資料整合
 

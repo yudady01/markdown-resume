@@ -71,19 +71,21 @@
 * **項目架構**：
   - 技術：
     - SpringBoot、Spring data jpa、core-ng(類Spring框架)
-    - Weblogic、Jersey JAX-RS、JBPM、quartz scheduler、Hibernate、Querydsl、JasperReport、PLSQL
+    - Weblogic、Jersey JAX-RS、JBPM、Quartz Scheduler、Hibernate、Querydsl、JasperReport、PLSQL
     - Oracle、Redis、Kafka、Prometheus、Grafana
-    - Angular、webpack、React、
-  - 模塊：帳號（會員、代理）、註冊連接、推廣連接、活動（每日登入送、充值送、紅包）、返點、三方遊戲、支付、里程碑、獎池、訊息推送、郵件、簡訊、訂單、任務排程、報表、公告、彩票
+    - Angular、webpack、React
+  - 模塊：帳號、註冊與推廣連接、活動、返點、三方遊戲接入、支付、里程碑、獎池、訊息推送、郵件、簡訊、訂單、任務排程、報表、公告、彩票
   - 項目描述：
-    - 項目採用前後端分離，前台與後台
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
-    - 1
+    - 前台使用React與後台Angular，API經Nginx反向代理
+    - 帳號（會員、代理）
+    - 會員組
+    - VIP里程碑
+    - 訊息：站內信息 公告管理
+    - 活動：活動工具（每日登入送、充值送、紅包）
+    - 三方遊戲：pt mgs ttg saba ky ag 推薦設置
+    - 充值提現 自動審核
+    - 返點
+    - 報表
 
 
 ### 聚力國際：體育資料整合

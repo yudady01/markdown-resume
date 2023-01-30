@@ -32,7 +32,7 @@
 
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清單
 
-- 基礎知識：Java 17，多年一線開發經驗，具備良好的編碼能力，具備良好的麵向對象的編程思想，對並發編程，對鎖機製，線程池都有深入理解。
+- 基礎知識：多年一線java開發經驗，具備良好的編碼能力，具備良好的麵向對象的編程思想，對並發編程，對鎖機製，線程池都有深入理解。
 - 框架：對Spring、SpringBoot、SpringData、MyBatis，多年實戰經驗，可以按照需求快讀構建項目，閱讀過Spring核心源碼。
 - 微服務：對Dockerfile、k8s yaml處理，有線上項目經驗。
 - 數據庫：對Mysql與Oracle有多年實戰經驗，處理索引的優化及plsql編寫有實際的開發經驗。

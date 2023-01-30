@@ -65,27 +65,27 @@
     - 此項目用Terraform + k8s構建在GCP平台上，使用Jenkins部屬不停機服務，上版需要做到向下兼容
     - 用Kafka執行事件驅動模式開發，業務流程的狀態更新，用Redis進行緩存數據
 
-### 優訊軟體：遊戲平台（pf2項目）
+### 優訊軟體：包網平台（pf2項目）
 
 * **項目描述**：
-  - 遊戲項目：三方遊戲平台接入與彩票系統
+  - 包網平台:體育/真人/棋牌/老虎機/彩票
 
 * **項目架構**：
   - 技術：
     - SpringBoot、Spring data jpa、core-ng(類Spring框架)
     - Weblogic、Jersey JAX-RS、JBPM、Quartz Scheduler、Hibernate、Querydsl、JasperReport、PLSQL
-    - Oracle、Redis、Kafka、Prometheus、Grafana
-    - Angular、webpack、React
+    - Oracle、Redis、Kafka、Nginx、Prometheus、Grafana
+    - webpack、Angular、React
   - 模塊：帳號、註冊與推廣連接、活動、返點、三方遊戲接入、支付、里程碑、獎池、訊息推送、郵件、簡訊、訂單、任務排程、報表、公告、彩票
   - 項目描述：
-    - 前台使用React與後台Angular，API經Nginx反向代理
-    - 註冊：會員、代理
-    - 會員組：會員等級與信用分類
-    - VIP里程碑：彩票投注里程、综合投注里程、生日禮金、節日禮金、福利派發
+    - 前台使用React與後台使用Angular，採前後分離，API經Nginx反向代理處理
+    - 玩家與代理管理：資金記錄、層級設置、返水系統，交易紀錄、流水控制、代理資料、佣金計算
+    - VIP里程碑：彩票投注里程、综合投注里程、生日禮金、節日禮金、福利派發、會員等級
     - 訊息：站內信息、公告管理、郵件、簡訊
-    - 活動：活動工具、每日登入送、充值送、紅包送
+    - 活動：活動工具、每日登入送、充值送、紅包送 活動舉辦、權限控管、廣告、推廣連結
     - 三方遊戲：接入pt、mgs、ttg、saba、ky、ag等廠商遊戲
-    - 支付；充值提現，提現自動審核
+    - 支付金流：（支付寶、微信、QQ掃碼、線上充提...）審核功能、歷史查詢（記錄玩家每筆存款歷史），提現自動審核，信用分類
+    - 團隊管理、賬號管理、部門系統、權限設置、代理報表
     - 早期使用EJB開發，近年把功能拆分模組化再加上API優化往微服務架構轉移，使用Jenkins部屬不停機服務，上版需要做到向下兼容
     - 使用Quartz Scheduler處理job定時功能
 

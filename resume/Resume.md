@@ -5,7 +5,7 @@
         <span>資深JAVA軟體開發工程師</span>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span>工作經驗：</span>
-        <span>16 年</span>  
+        <span>15 年</span>  
     </div>
     <div>
         <span>
@@ -55,8 +55,7 @@
   - 技術：
     - 在GCP平台上用Terraform構建k8s系統，使用Jenkins構建image部屬應用服務
     - Redis、Mysql、Kafka、ElasticSearch、Kibana、core-ng(類Spring框架,https://github.com/neowu/core-ng-project)
-  - 模塊：vander（廠商資訊，白名單，api回調網址），充值提現（廠商提交過來的充值提現資訊），審核員操作功能
-  - 項目描述：
+  - 功能描述：
     - 撰寫後台管理系統，參與產品架構設計、開發、維護、除錯處理
     - 網站的前後端及相關API 開發與串接
     - 以API模式接入vander提交的資料，進行集團內部支付匹配
@@ -73,11 +72,10 @@
 * **項目架構**：
   - 技術：
     - SpringBoot、Spring data jpa、core-ng(類Spring框架)
-    - Weblogic、Jersey JAX-RS、JBPM、Quartz Scheduler、Hibernate、Querydsl、JasperReport、PLSQL
+    - WebLogic、Jersey JAX-RS、JBPM、Quartz Scheduler、Hibernate、Querydsl、JasperReport、PLSQL
     - Oracle、Redis、Kafka、Nginx、Prometheus、Grafana
     - webpack、Angular、React
-  - 模塊：帳號、註冊與推廣連接、活動、返點、三方遊戲接入、支付、里程碑、獎池、訊息推送、郵件、簡訊、訂單、任務排程、報表、公告、彩票
-  - 項目描述：
+  - 功能描述：
     - 前台使用React與後台使用Angular，採前後分離，API經Nginx反向代理處理
     - 玩家與代理管理：資金記錄、層級設置、返水系統，交易紀錄、流水控制、代理資料、佣金計算
     - VIP里程碑：彩票投注里程、综合投注里程、生日禮金、節日禮金、福利派發、會員等級
@@ -89,26 +87,27 @@
     - 早期使用EJB開發，近年把功能拆分模組化再加上API優化往微服務架構轉移，使用Jenkins部屬不停機服務，上版需要做到向下兼容
     - 使用Quartz Scheduler處理job定時功能
 
-### 聚力國際：體育資料整合
-
-- 體育數據清洗系統:整理購買來的即時數據
-- 使用技術：thymeleaf、jquery / springboot、mybatis、mysql、ElasticSearch、Apache Storm
 
 ### 艾米科技：支付聚合系統
+* **項目描述**：
+  - 通用聚合支付平台，提供已串接完成的第3方支付系統，與自動上分系統，部屬在GCP上的平台，供客戶開箱即用
 
-- 通用聚合支付平台，提供已串接完成的第3方支付系統，與自動上分系統，部屬在GCP上的平台，供客戶開箱即用
-- 使用技術：vue、jquery、bootstrap、websocket / redis、oracle、jsoup、elk / zabbix、jenkins
+* **項目架構**：
+  - 技術：vue、jquery、bootstrap、websocket / redis、oracle、jsoup、elk / zabbix、jenkins
+  - 功能描述：
+    - 渠道管理:接入渠道API通道
+    - 商家管理:對商家的基本信息管理
+    - 訂單管理:用戶通過渠道支付成功，渠道把交易訂單送到聚合系統，聚合系統再上送給商戶
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 工作經歷
 
-| 在職時間         | 公司    | 職務       | 項目內容           |
-|:----------------|:--------|:---------|:---------------|
-| 2019/02~2022/12 | 優訊軟體 | 開發組長     | 三方遊戲平台與彩票系統 |
-| 2018/11~2019/02 | 聚力國際 | 資深工程師    | 體育數據整合系統       |
-| 2016/11~2018/11 | 艾米科技 | 資深工程師    | 支付聚合系統         |
-| 2013/04~2016/11 | 豐揚科技 | 高級工程師    | 電信業系統，手機庫存維修   |
-| 2011/06~2013/04 | 億力資訊 | 高級工程師    | 財政部財稅案         |
-| 2009/05~2011/06 | 緯創軟體 | 工程師      | 萬海航運(船運系統開發)   |
-| 2005/03~2009/03 | 創世紀   | 工程師      | 門戶網站           |
+| 在職時間         | 公司    | 職務       | 項目內容          |
+|:----------------|:--------|:---------|:--------------|
+| 2019/02~2022/12 | 優訊軟體 | 開發組長     | 包網平台          |
+| 2016/11~2018/11 | 艾米科技 | 資深工程師    | 支付聚合系統        |
+| 2013/04~2016/11 | 豐揚科技 | 高級工程師    | 電信業系統，手機庫存維修  |
+| 2011/06~2013/04 | 億力資訊 | 高級工程師    | 財政部財稅案        |
+| 2009/05~2011/06 | 緯創軟體 | 工程師      | 萬海航運(船運系統開發)  |
+| 2005/03~2009/03 | 創世紀   | 工程師      | 門戶網站          |
 
 

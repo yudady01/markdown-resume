@@ -101,6 +101,21 @@ has Senior DevOps工程師 : 工作內容
 
 ---
 
+面試 ； google meet (時間：10:30 ~ 01:08)
+hr , shan(高級工程師) , hr , victor(主管) , hr
+
+[设计模式概念和七大原则 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1650116)
+springboot : 
+  - actuator [SpringBoot - 監控工具 Actuator](https://kucw.github.io/blog/2020/7/spring-actuator/)
+  - @ControllerAdvice  
+  - Propagation.REQUIRES_NEW [菜鳥工程師 肉豬: Spring @Transactional Propagation.REQUIRES_NEW](https://matthung0807.blogspot.com/2020/10/spring-transactional-propagation-requires-new.html)
+RabbitMQ : 工作原理 , 數據一致性 , 消息積壓
+redis : 緩存 key淘汰機制, 數據庫應用 , 主从模式 , 哨兵集群
+mysql : index 
+k8s : pod 有2個 container ... , etcd ingress service pod , 服務間的溝通 
+[Hibernate Entity Lifecycle | Baeldung](https://www.baeldung.com/hibernate-entity-lifecycle)
+測試：junit , mockito : mock spy
+[Saga 分散式交易模式](https://learn.microsoft.com/zh-tw/azure/architecture/reference-architectures/saga/saga)
 
 ---
 

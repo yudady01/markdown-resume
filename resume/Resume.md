@@ -2,7 +2,7 @@
     <h1>林炫羽</h1>
     <div>          
         <span>應徵職缺：</span>
-        <span>資深JAVA軟體開發工程師</span>
+        <span>軟體開發工程師</span>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span>工作經驗：</span>
         <span>15 年</span>  
@@ -36,12 +36,10 @@
 - 框架：對Spring、SpringBoot、SpringData、MyBatis，多年實戰經驗，可以按照需求快讀構建項目，閱讀過Spring核心源碼。
 - 微服務：對Dockerfile、k8s yaml處理，有線上項目經驗。
 - 數據庫：對Mysql與Oracle有多年實戰經驗，處理索引的優化及plsql編寫有實際的開發經驗。
-- 中間件：
-  - Redis，了解底層磁盤及網絡IO模型，數據持久化機製，多數據類型緩存應用有實際的經驗。
-  - Kafka，訊息不丟和重復，消費以及消息投遞一致性問題，有實際的項目經驗。
+- 中間件：Redis多數據類型緩存應用，Kafka訊息不丟和重復，消費以及消息投遞一致性問題，有實際的項目經驗。
 - 熟悉大型網站高並發設計方案：對nginx、cdn、dns、https等都有深入的理解。
 - 前端技術：Angular、Vue、webpack、JQuery、Bootstrap，有實際的項目經驗。
-- GitOps：Jenkins、Maven、Gradle、ELK、GCP、Terraform、Prometheus、Grafana，有實際的項目經驗。
+- GitOps：Jenkins、Maven、Gradle、ELK、GCP、Terraform，有實際的項目經驗。
 
 ## <img src="assets/project-diagram-solid.svg" width="30px"> 項目經歷
 
@@ -62,7 +60,7 @@
     - 首先需要有提現用戶發起固定金額提現(100 200 300 ..)，把提現金額存入提現池，當另外一個用戶發起充值，從提現池找出可用金額返回給用戶選擇金額
     - 充值用戶先選擇充值金額（提現池裡面的金額），選定金額後返回提現用戶的銀行卡資訊，當用戶充值完成後，需要上傳充值截圖，審核員確認資料無誤後執行回調API，即充值提現完成
     - 此項目用Terraform + k8s構建在GCP平台上，使用Jenkins部屬不停機服務，上版需要做到向下兼容
-    - 用Kafka執行事件驅動模式開發，業務流程的狀態更新，用Redis進行緩存數據
+    - 用Saga分散式模式以Kafka事件驅動對業務流程的狀態更新，用Redis進行緩存數據
 
 ### 優訊軟體：包網平台（pf2項目）
 
